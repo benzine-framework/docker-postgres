@@ -2,8 +2,8 @@
 FROM postgres:injected-version
 
 LABEL maintainer="Matthew Baggett <matthew@baggett.me>" \
-      org.label-schema.vcs-url="https://github.com/benzine-framework/docker" \
-      org.opencontainers.image.source="https://github.com/benzine-framework/docker"
+      org.label-schema.vcs-url="https://github.com/benzine-framework/docker-postgres" \
+      org.opencontainers.image.source="https://github.com/benzine-framework/docker-postgres"
 
 # Add healthcheck script
 COPY postgres_healthcheck.sh /usr/local/bin/postgres_healthcheck
